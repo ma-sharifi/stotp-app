@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="totp-app-ejb:ejb">
+    <output-path>$PROJECT_DIR$/totp-app-ejb/target</output-path>
+    <root id="archive" name="totp-app-ejb.jar">
+      <element id="artifact" artifact-name="totp-app-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,7 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Üþ‚±þÿÿÿÿ
+nsquid:S00116"VRename this field "LOGGER_NODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¸Í÷
+hsquid:UselessImportCheck"8Remove this unused import 'org.perf4j.LoggingStopWatch'.(Û¶›‹ûÿÿÿÿ8²´³ä´-
+gsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(ãÈê©üÿÿÿÿ
+gsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(òáÆþÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¹¸Í÷

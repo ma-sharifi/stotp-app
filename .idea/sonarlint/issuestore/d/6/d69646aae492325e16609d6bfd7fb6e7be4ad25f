@@ -1,0 +1,51 @@
+
+jsquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(Ô€îá8‰ÿê”µ-
+vsquid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê»³äøÿÿÿÿ8’ÅŽ·µ-
+T
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(ñÕœýûÿÿÿÿ
+Msquid:S1481ß".Remove this unused "secretKey" local variable.(ÜñÜÈ8ÓÒ²µ-
+gsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(â¸ä¥úÿÿÿÿ
+isquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(Ë¿ù«8Ðžää´-
+isquid:CommentedOutCodeLineq"<This block of commented-out lines of code should be removed.(¶×Âû8Ðžää´-
+psquid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‡Æ^8Ç…’µ-
+isquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(Œ²°Ñ8Ðžää´-
+jsquid:ModifiersOrderCheck&"EReorder the modifiers to comply with the Java Language Specification.(…£À›
+W
+squid:S106í"9Replace this use of System.out or System.err by a logger.(ŠÛõ¸8üÒ«í´-
+osquid:CommentedOutCodeLineþ"<This block of commented-out lines of code should be removed.(ê“Úƒýÿÿÿÿ8üÒ«í´-
+Usquid:S1135w"2Complete the task associated to this TODO comment.(‹¤ü°ýÿÿÿÿ8Ðžää´-
+vsquid:S00117Þ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ëð¼øÿÿÿÿ8üÒ«í´-
+Jsquid:S1135"2Complete the task associated to this TODO comment.(Ò¾ÅÅ
+nsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(ƒÓ‰Ãýÿÿÿÿ8Ðžää´-
+jsquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(‹ãÄœ8üÒ«í´-
+osquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(â¸ä¥úÿÿÿÿ8üÒ«í´-
+Hsquid:S00108e")Either remove or fill this block of code.(Úîø›8ô…åä´-
+nsquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(²¶Ñ®øÿÿÿÿ8Ðžää´-
+W
+squid:S106×"9Replace this use of System.out or System.err by a logger.(ÆÄ÷ÿ8üÒ«í´-
+T
+squid:S106T"9Replace this use of System.out or System.err by a logger.(õ‘ƒ„ûÿÿÿÿ
+Isquid:S00108ž")Either remove or fill this block of code.(Úîø›8‹Âæä´-
+Isquid:S00108ñ")Either remove or fill this block of code.(Úîø›8üÒ«í´-
+jsquid:CommentedOutCodeLineü"<This block of commented-out lines of code should be removed.(¼òÇÂ8üÒ«í´-
+W
+squid:S106ë"9Replace this use of System.out or System.err by a logger.(Ò¿ÁÏ8üÒ«í´-
+Isquid:S1135"2Complete the task associated to this TODO comment.(¯€án
+Jsquid:S1481Æ"+Remove this unused "result" local variable.(žìþ“8üÒ«í´-
+esquid:S1854å"ARemove this useless assignment to local variable "totpUuidCache".(Òâ‘¢ÿÿÿÿÿ8‚â¿’µ-
+hsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(â¸ä¥úÿÿÿÿ
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(â¸ä¥úÿÿÿÿ
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(ôøÿ¹
+W
+squid:S106£"9Replace this use of System.out or System.err by a logger.(­¤¨£8ý´Åí´-
+U
+squid:S106–"9Replace this use of System.out or System.err by a logger.(ü¸Øíúÿÿÿÿ
+Qsquid:S1135Ø"2Complete the task associated to this TODO comment.(•—Ÿ—8üÒ«í´-
+isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(”ÇõÚ8Ðžää´-
+jsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(Ô‘ðî8‚â¿’µ-
+osquid:CommentedOutCodeLineø"<This block of commented-out lines of code should be removed.(£ˆÖëúÿÿÿÿ8üÒ«í´-
+W
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(§˜ÓÐ8êÁì´-
+Vsquid:S1481å"2Remove this unused "totpUuidCache" local variable.(Òâ‘¢ÿÿÿÿÿ8‚â¿’µ-
+qsquid:S00117Ð"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÈœŒ8ß·Úµ-

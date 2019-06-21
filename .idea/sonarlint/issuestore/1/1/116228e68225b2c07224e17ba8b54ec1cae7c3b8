@@ -1,0 +1,18 @@
+
+asquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ùÃý*
+bsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(»Íèñ
+ysquid:S1845$"]Rename field "key" to prevent any misunderstanding/clash with field "KEY" defined on line 27.(ÌðÃÉýÿÿÿÿ
+gsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(š•¥¬øÿÿÿÿ
+Fsquid:S1068"/Remove this unused "LOGGER_NODE" private field.(öÞéª
+gsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(×æÙ‡ùÿÿÿÿ
+gsquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(¤ú÷ÿÿÿÿÿ
+bsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(é¬˜–
+ysquid:S1845W"cRename field "server" to prevent any misunderstanding/clash with field "SERVER" defined on line 30.(† ‹)
+bsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(ê¿þü
+hsquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(ãÈê©üÿÿÿÿ
+ƒsquid:S1845%"gRename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined on line 28.(œãë­úÿÿÿÿ
+Dsquid:S1948"-Make "LOGGER_NODE" transient or serializable.(öÞéª
+nsquid:S00116"VRename this field "LOGGER_NODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÞéª
+gsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(š•¥¬øÿÿÿÿ
+bsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(‹Ûòä
+squid:S1488p"hImmediately return this expression instead of assigning it to the temporary variable "messageCacheRead".(šÙÕà

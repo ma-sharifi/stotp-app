@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="totp-app-cache" />
+        <module name="totp-app-ear" />
+        <module name="totp-app-ejb" />
+        <module name="totp-app-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stotp-app" target="1.5" />
+      <module name="totp-app" target="1.5" />
+      <module name="totp-app-cache" target="1.8" />
+      <module name="totp-app-ear" target="1.8" />
+      <module name="totp-app-ejb" target="1.8" />
+      <module name="totp-app-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

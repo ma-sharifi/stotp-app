@@ -1,0 +1,5 @@
+
+ssquid:S2177j"WRename this method; there is a "private" method in the parent class with the same name.(‘á´ıÿÿÿÿ
+squid:S1186b"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ˆÈ“øÿÿÿÿ
+Ksquid:S1948D"(Make "cardNo" transient or serializable.(¥Ùî°úÿÿÿÿ8ı †µ-
+isquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(ø¡Ëî8Ò¦œ©·-

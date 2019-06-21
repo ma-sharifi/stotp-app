@@ -1,0 +1,34 @@
+
+isquid:S00117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬‹ÐÊ
+Isquid:S1135@"2Complete the task associated to this TODO comment.(÷º¦¢
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+Msquid:S1854t"6Remove this useless assignment to local variable "iv".(°ÌÐ¶
+T
+squid:S106}"9Replace this use of System.out or System.err by a logger.(ÖÖˆ¨þÿÿÿÿ
+Xsquid:S2259B"AA "NullPointerException" could be thrown; "key" is nullable here.(°þ„¼
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰òü¤ùÿÿÿÿ
+tsquid:S3008"XRename this field "KEY_ALGORITHM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜®¯üÿÿÿÿ
+hsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(ÞÖ²¸ûÿÿÿÿ
+csquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(Ï²î
+csquid:S00112m"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ×¦œüÿÿÿÿ
+nsquid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ú¹¬øÿÿÿÿ
+T
+squid:S106j"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+qsquid:S1192"UDefine a constant instead of duplicating this literal "AES/CBC/PKCS7Padding" 4 times.(›ßÂéùÿÿÿÿ
+psquid:S3008"TRename this field "ALGORITHM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ßÂéùÿÿÿÿ
+Xsquid:S3984!"5Throw this exception or remove this useless statement(ÅÏ‘¢øÿÿÿÿ8þÌ©‘µ-
+^squid:S00112Z"FDefine and throw a dedicated exception instead of using a generic one.(¬‹ÐÊ
+bsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(×¸Òñ
+U
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(Ô¼Ÿæüÿÿÿÿ
+jsquid:S001122"FDefine and throw a dedicated exception instead of using a generic one.(üÂ§Áþÿÿÿÿ8ßò²‘µ-
+jsquid:S00112D"FDefine and throw a dedicated exception instead of using a generic one.(’æâÿÿÿÿÿÿ8²ø¶‘µ-
+jsquid:S00112+"FDefine and throw a dedicated exception instead of using a generic one.(’æâÿÿÿÿÿÿ8è¬‘µ-
+gsquid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(ÚÎ®Üûÿÿÿÿ
+>squid:S1481t"'Remove this unused "iv" local variable.(°ÌÐ¶
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Àè²íùÿÿÿÿ
+Psquid:S1854W"9Remove this useless assignment to local variable "plain".(¡ÂÓ˜
+Asquid:S1481W"*Remove this unused "plain" local variable.(¡ÂÓ˜
+nsquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÂ§Áþÿÿÿÿ
+Xsquid:S39845"5Throw this exception or remove this useless statement(ÅÏ‘¢øÿÿÿÿ8–Í³‘µ-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(õÄ‰ºþÿÿÿÿ8¤ª©‘µ-

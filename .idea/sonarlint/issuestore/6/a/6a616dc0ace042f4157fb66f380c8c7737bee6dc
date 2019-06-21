@@ -1,0 +1,6 @@
+
+hsquid:UselessImportCheck"8Remove this unused import 'org.perf4j.LoggingStopWatch'.(Û¶›‹ûÿÿÿÿ8³ºµä´-
+nsquid:S00116"VRename this field "LOGGER_NODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¸Í÷
+gsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(Üæ¥úÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¹¸Í÷
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ãÈê©üÿÿÿÿ

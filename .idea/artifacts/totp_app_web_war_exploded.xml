@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="totp-app-web:war exploded">
+    <output-path>$PROJECT_DIR$/totp-app-web/target/totp-app-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="totp-app-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="totp-app-cache-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="totp-app-cache" />
+          </element>
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.perf4j:perf4j:0.9.16" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.61" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.9" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/totp-app-web/target/totp-app-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="totp-app-web/web/Web" />
+    </root>
+  </artifact>
+</component>

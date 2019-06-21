@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ir.htsc</groupId>
+    <artifactId>stotp-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>stotp-app</name>
+    <modules>
+        <module>totp-app-ear</module>
+        <module>totp-app-web</module>
+        <module>totp-app-ejb</module>
+        <module>totp-app-cache</module>
+    </modules>
+    <properties>
+        <coherence.version>12.2.1-1-0</coherence.version>
+        <!-- Encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!--JAVA-->
+        <buildNumber>${user.name}-${maven.build.timestamp}</buildNumber>
+        <version.java>1.8</version.java>
+        <version.javaee>7.0</version.javaee>
+        <version.commons-lang3>3.9</version.commons-lang3>
+        <version.maven.compiler.source>1.8</version.maven.compiler.source>
+        <version.maven.compiler.target>1.8</version.maven.compiler.target>
+        <version.maven.compiler.version>3.3</version.maven.compiler.version>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+        <!--JAX-RS-->
+        <version.okhttp>3.14.2</version.okhttp>
+        <!--Test-->
+        <version.junit>4.12</version.junit>
+        <assertj.version>3.1.0</assertj.version>
+        <!--Logging-->
+        <version.log4j>1.2.17</version.log4j>
+        <perf4j.version>0.9.16</perf4j.version>
+        <!--lombok-->
+        <version.lombok>1.18.2</version.lombok>
+
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>ir.htsc</groupId>
+                <artifactId>totp-app-ejb</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>ir.htsc</groupId>
+                <artifactId>totp-app-cache</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.oracle.coherence</groupId>
+                <artifactId>coherence</artifactId>
+                <version>${coherence.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.oracle.toplink</groupId>
+                <artifactId>toplink-grid</artifactId>
+                <version>${coherence.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+                <version>${version.javaee}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!--LOGGING-->
+            <dependency>
+                <groupId>org.perf4j</groupId>
+                <artifactId>perf4j</artifactId>
+                <version>${perf4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${version.log4j}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>1.61</version>
+            </dependency>
+
+            <!--JPA-->
+            <dependency>
+                <groupId>org.eclipse.persistence</groupId>
+                <artifactId>eclipselink</artifactId>
+                <version>2.5.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.persistence</groupId>
+                <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+                <version>2.5.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <!--JSON-->
+            <!--Google GSON-->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${version.okhttp}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <!--Test-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${version.commons-lang3}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                    <configuration>
+                        <source>${version.maven.compiler.source}</source>
+                        <target>${version.maven.compiler.target}</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>2.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>2.1.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-ejb-plugin</artifactId>
+                    <version>2.3</version>
+                    <configuration>
+                        <ejbVersion>3.1</ejbVersion>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+    </build>
+</project>

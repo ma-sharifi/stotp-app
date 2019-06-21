@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="totp-app-ear:ear">
+    <output-path>$PROJECT_DIR$/totp-app-ear/target</output-path>
+    <root id="archive" name="spc-ear.ear">
+      <element id="artifact" artifact-name="totp-app-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

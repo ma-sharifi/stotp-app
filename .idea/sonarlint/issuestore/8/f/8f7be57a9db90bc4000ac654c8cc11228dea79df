@@ -1,0 +1,17 @@
+
+Ksquid:S1444"-Make this "public static context" field final(¬ëŠÉ8’‹³‰µ-
+Msquid:S00108:")Either remove or fill this block of code.(Õ¡ËŞøÿÿÿÿ8£·¦‰µ-
+…squid:S1192e"iDefine a constant instead of duplicating this literal "Goto stackTrace.log for detail! message:" 4 times.(º„Šôıÿÿÿÿ
+.squid:S2176"Rename this class.(ú·ìøÿÿÿÿ
+Ysquid:S2696*"6Make the enclosing method "static" or remove this set.(©—Ñ¥øÿÿÿÿ8¾Ì³‰µ-
+^squid:S00112k"FDefine and throw a dedicated exception instead of using a generic one.(áÖã
+bsquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(ñæ’Ê
+ˆ"squid:ClassVariableVisibilityCheck"SMake context a static final constant or non-public and provide accessors if needed.(¬ëŠÉ8’‹³‰µ-
+ssquid:S1192e"WDefine a constant instead of duplicating this literal "Exception in cacheKey " 4 times.(º„Šôıÿÿÿÿ
+xsquid:S3008"\Rename this field "logger_stackTrace" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Êşÿÿÿÿ
+jsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(Ñİè°8†âÂŠµ-
+isquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(ß¢ò8€˜¬Šµ-
+–%squid:RedundantThrowsDeclarationCheckk"eRemove the declaration of thrown exception 'java.lang.RuntimeException' which is a runtime exception.(áÖã
+˜squid:S1186Q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ì‚Ö
+?squid:S1148d"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+ssquid:S1488`"\Immediately return this expression instead of assigning it to the temporary variable "size".(ñæ’Ê

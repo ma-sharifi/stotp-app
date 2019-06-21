@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<pof-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://xmlns.oracle.com/coherence/coherence-pof-config"
+            xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-pof-config coherence-pof-config.xsd">
+    <user-type-list>
+        <include>coherence-pof-config.xml</include>
+
+        <user-type>
+            <type-id>1001</type-id>
+            <class-name>ir.htsc.model.OTPKeyStoreCache</class-name>
+            <serializer>
+                <class-name>ir.htsc.model.serialize.TOTPKeyStoreCacheSerializer</class-name>
+            </serializer>
+        </user-type>
+
+        <user-type>
+            <type-id>1002</type-id>
+            <class-name>ir.htsc.processor.TOTPUuidCacheProcessor</class-name>
+            <serializer>
+                <class-name>ir.htsc.processor.TOTPUuidCacheProcessor$Serializer</class-name>
+            </serializer>
+        </user-type>
+
+        <user-type>
+            <type-id>1003</type-id>
+            <class-name>ir.htsc.model.TOTPUuidCache</class-name>
+            <serializer>
+                <class-name>ir.htsc.model.serialize.TOTPUuidCacheSerializer</class-name>
+            </serializer>
+        </user-type>
+
+        <user-type>
+            <type-id>1004</type-id>
+            <class-name>ir.htsc.processor.GenerateSTOTPProcessor</class-name>
+            <serializer>
+                <class-name>ir.htsc.processor.GenerateSTOTPProcessor$Serializer</class-name>
+            </serializer>
+        </user-type>
+
+        <user-type>
+            <type-id>1005</type-id>
+            <class-name>ir.htsc.processor.ValidateSTOTPProcessor</class-name>
+            <serializer>
+                <class-name>ir.htsc.processor.ValidateSTOTPProcessor$Serializer</class-name>
+            </serializer>
+        </user-type>
+
+    </user-type-list>
+
+    <allow-interfaces>true</allow-interfaces>
+    <allow-subclasses>true</allow-subclasses>
+</pof-config>

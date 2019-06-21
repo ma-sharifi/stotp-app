@@ -1,0 +1,70 @@
+
+ squid:ForLoopCounterChangedCheck,"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck/"XRefactor the code in order to not assign to this loop counter from within the loop body.(ã¢óÿ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck:"XRefactor the code in order to not assign to this loop counter from within the loop body.( ñí«8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheckW"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨¾şÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheck¬"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck;"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÿİù¡8¹›¥é´-
+ squid:ForLoopCounterChangedCheckn"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedChecké"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckV"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷õÀ¾ùÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckë"XRefactor the code in order to not assign to this loop counter from within the loop body.(ïÙŒúÿÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck,"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckî"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôƒáëûÿÿÿÿ8¹›¥é´-
+Csquid:S1659‚"Declare "j" on a separate line.(á”æåşÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckl"XRefactor the code in order to not assign to this loop counter from within the loop body.(·Œ†¾ùÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckğ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheckY"XRefactor the code in order to not assign to this loop counter from within the loop body.(àÎ…8¹›¥é´-
+ squid:ForLoopCounterChangedCheck<"XRefactor the code in order to not assign to this loop counter from within the loop body.(õÒ†Üşÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck«"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷õÀ¾ùÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckÂ"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck‡"XRefactor the code in order to not assign to this loop counter from within the loop body.(·Œ†¾ùÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck0"XRefactor the code in order to not assign to this loop counter from within the loop body.(éŸÿûÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckì"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÉÜ“í8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(ã¢óÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck€"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck‰"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckk"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôƒáëûÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck!"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôÒˆıÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckÁ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(éŸÿûÿÿÿÿ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck="XRefactor the code in order to not assign to this loop counter from within the loop body.(Ÿ–£8¹›¥é´-
+‘ squid:ForLoopCounterChangedChecké"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(áÜÆï8¹›¥é´-
+Ysquid:S1854Ù"5Remove this useless assignment to local variable "j".(‹„¤øÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheck…"XRefactor the code in order to not assign to this loop counter from within the loop body.(àÎ…8¹›¥é´-
+Š squid:ForLoopCounterChangedCheck-"XRefactor the code in order to not assign to this loop counter from within the loop body.(¢İÒY8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckï"XRefactor the code in order to not assign to this loop counter from within the loop body.(·Œ†¾ùÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck­"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+Qsquid:UselessParenthesesCheck""!Remove these useless parentheses.(Ÿ–£8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheck„"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÌÎé¨8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck«"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷õÀ¾ùÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨¾şÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckj"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckˆ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+;squid:S2386F"Make this member "protected".(©ŒØí8¹›¥é´-
+‹ squid:ForLoopCounterChangedChecko"XRefactor the code in order to not assign to this loop counter from within the loop body.(àÎ…8¹›¥é´-
+ squid:ForLoopCounterChangedCheck!"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôÒˆıÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck‚"XRefactor the code in order to not assign to this loop counter from within the loop body.(ïÙŒúÿÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck¾"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck¿"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôƒáëûÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckV"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷õÀ¾ùÿÿÿÿ8¹›¥é´-
+Qsquid:UselessParenthesesCheck="!Remove these useless parentheses.(Ÿ–£8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckÀ"XRefactor the code in order to not assign to this loop counter from within the loop body.(·Œ†¾ùÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck¾"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck€"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+ squid:ForLoopCounterChangedCheckX"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheckm"XRefactor the code in order to not assign to this loop counter from within the loop body.(ëäƒ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ñï¦8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck:"XRefactor the code in order to not assign to this loop counter from within the loop body.( ñí«8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheckñ"XRefactor the code in order to not assign to this loop counter from within the loop body.(°œĞòøÿÿÿÿ8¹›¥é´-
+‘ squid:ForLoopCounterChangedCheck†"XRefactor the code in order to not assign to this loop counter from within the loop body.(ôƒáëûÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckí"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÌÎé¨8¹›¥é´-
+‹ squid:ForLoopCounterChangedCheck""XRefactor the code in order to not assign to this loop counter from within the loop body.(Ÿ–£8¹›¥é´-
+Tsquid:S1854›"5Remove this useless assignment to local variable "j".(õ¹îå8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckê"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ñï¦8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckŠ"XRefactor the code in order to not assign to this loop counter from within the loop body.(àÎ…8¹›¥é´-
+ squid:ForLoopCounterChangedCheckj"XRefactor the code in order to not assign to this loop counter from within the loop body.(±ˆêşÿÿÿÿ8¹›¥é´-
+Œ squid:ForLoopCounterChangedCheckƒ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÉÜ“í8¹›¥é´-
+ squid:ForLoopCounterChangedCheck."XRefactor the code in order to not assign to this loop counter from within the loop body.(…©ƒÖşÿÿÿÿ8¹›¥é´-

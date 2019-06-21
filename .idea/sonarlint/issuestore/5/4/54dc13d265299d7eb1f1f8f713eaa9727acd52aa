@@ -1,0 +1,19 @@
+
+~squid:S1488<"`Immediately return this expression instead of assigning it to the temporary variable "original".(ÉºÃ8„ô‘µ-
+V
+squid:S106M"9Replace this use of System.out or System.err by a logger.(É™Ä’8ÿŸé‘µ-
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(êÀÁ¬8ûÄòµ-
+isquid:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 6 times.(˜¼‹…ıÿÿÿÿ8ËÇ‰é´-
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(‡ä½Åúÿÿÿÿ8…Ëãé´-
+Dsquid:S1168A"&Return an empty array instead of null.(¥¹ï8Êğôµ-
+Asquid:S1148"#Use a logger to log this exception.(Ç’Çê8ûÄòµ-
+Asquid:S1148*"#Use a logger to log this exception.(Ç’Çê8ÁÇÜ‘µ-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“îŒÅúÿÿÿÿ8€¢‰é´-
+[
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ÓÑğÏÿÿÿÿÿ8ûÄòµ-
+Asquid:S1148?"#Use a logger to log this exception.(Ç’Çê8ûÄòµ-
+xsquid:S1192"UDefine a constant instead of duplicating this literal "AES/CBC/PKCS5PADDING" 3 times.(ªŒğÚûÿÿÿÿ8ÁÇÜ‘µ-
+[
+squid:S106L"9Replace this use of System.out or System.err by a logger.(•ßó ûÿÿÿÿ8ûÄòµ-

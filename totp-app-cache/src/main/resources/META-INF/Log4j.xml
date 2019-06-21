@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="true">
+    <appender name="coherenceStdout" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <!-- Pattern to output the caller's file name and line number -->
+            <param name="ConversionPattern" value="%5p [%35t] (%F:%L) - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="coherenceFileRollbySize" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cluster/root/coherence.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <!-- Keep 5 backup file -->
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} %5p [%-50.50t] (%F:%L) %c -> %m%n"/>
+        </layout>
+    </appender>
+    <appender name="memberEventListener" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cluster/listener/member/memberEvent.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <!-- Keep 5 backup file -->
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} %5p [%-50.50t] (%F:%L) %c -> %m%n"/>
+        </layout>
+    </appender>
+    <appender name="mapEventListener" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cluster/listener/map/mapEvent.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <!-- Keep 5 backup file -->
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} %5p [%-50.50t] (%F:%L) %c -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--Added By MSH 951022 -->
+    <appender name="node" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cluster/tran/tran.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-50.50t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="timeFileAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cluster/statistics/statistics.log"/>
+        <param   name = "MaxFileSize"    value = "20000KB"/>
+        <param   name = "MaxBackupIndex" value = "50" />
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="CoalescingStatistics" class="org.perf4j.log4j.AsyncCoalescingStatisticsAppender">
+        <param name="TimeSlice" value="60000"/>
+        <param name="QueueSize" value="200000"/>
+        <appender-ref ref="timeFileAppender"/>
+    </appender>
+
+    <logger name="org.perf4j.TimingLogger" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="CoalescingStatistics"/>
+    </logger>
+
+    <logger name="mapEventListener" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="mapEventListener"/>
+    </logger>
+
+    <logger name="memberEventListener" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="memberEventListener"/>
+    </logger>
+
+    <logger name="node" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="node"/>
+    </logger>
+
+    <root>
+        <level value="debug"/>
+        <appender-ref ref="coherenceFileRollbySize" />
+        <!--<appender-ref ref="coherenceStdout" />-->
+    </root>
+
+</log4j:configuration>

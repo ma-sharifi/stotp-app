@@ -1,0 +1,12 @@
+
+Nsquid:S1948"7Make "LOGGER_SERVICE_TIMING" transient or serializable.(ÅååŽ
+psquid:S00116"XRename this field "ERROR_MESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…šš‹
+]squid:S00112;"FDefine and throw a dedicated exception instead of using a generic one.(ƒ©Š
+Ksquid:S1481+"4Remove this unused "entityClazzName" local variable.(®ø¸Ì
+8squid:S1170"!Make this final field static too.(…šš‹
+Osquid:S1948"3Make "LOGGER_STACKTRACE" transient or serializable.(„õñŠýÿÿÿÿ
+ysquid:S00116"\Rename this field "LOGGER_STACKTRACE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„õñŠýÿÿÿÿ
+xsquid:S00116"`Rename this field "LOGGER_SERVICE_TIMING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅååŽ
+hsquid:S00116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Õ™
+wsquid:S00116"ZRename this field "LOGGER_CRITICAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÑÚ×ùÿÿÿÿ
+Msquid:S1948"1Make "LOGGER_CRITICAL" transient or serializable.(þÑÚ×ùÿÿÿÿ

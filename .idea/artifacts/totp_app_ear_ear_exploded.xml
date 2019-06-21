@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="totp-app-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/totp-app-ear/target/spc-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="totp-app-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/totp-app-ear/target/spc-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/totp-app-ear/src/main/application" />
+      <element id="archive" name="totp-app-ejb.jar">
+        <element id="artifact" artifact-name="totp-app-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="totp-app-cache-1.0-SNAPSHOT.jar">
+          <element id="module-output" name="totp-app-cache" />
+        </element>
+        <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+        <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+        <element id="library" level="project" name="Maven: org.perf4j:perf4j:0.9.16" />
+        <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.61" />
+        <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.9" />
+      </element>
+      <element id="archive" name="totp-app-web.war">
+        <element id="artifact" artifact-name="totp-app-web:war exploded" />
+      </element>
+      <element id="archive" name="totp-app-cache.gar">
+        <element id="module-output" name="totp-app-cache" />
+      </element>
+    </root>
+  </artifact>
+</component>

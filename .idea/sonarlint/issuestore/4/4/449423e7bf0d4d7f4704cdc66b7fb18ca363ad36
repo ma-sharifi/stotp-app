@@ -1,0 +1,74 @@
+
+hsquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(Û­µøÿÿÿÿ
+vsquid:S1488…"^Immediately return this expression instead of assigning it to the temporary variable "entity".(ö½µž
+esquid:UselessImportCheck"<Remove this unused import 'javax.ejb.TransactionManagement'.(Ð––Ýýÿÿÿÿ
+_squid:S00112 "FDefine and throw a dedicated exception instead of using a generic one.(ÿõº–
+osquid:ModifiersOrderCheck;"EReorder the modifiers to comply with the Java Language Specification.(ž¨æúÿÿÿÿ
+ysquid:S1488Ÿ"\Immediately return this expression instead of assigning it to the temporary variable "list".(½„Øëúÿÿÿÿ
+_squid:S00112ù"FDefine and throw a dedicated exception instead of using a generic one.(Üðå
+csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(åÑ‘ö
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ò´üüüÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ò´üüüÿÿÿÿ
+csquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(€‚•Æ
+_squid:S00112ª"FDefine and throw a dedicated exception instead of using a generic one.(ÿõº–
+gsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+dsquid:UselessImportCheck";Remove this unused import 'javax.ejb.TransactionAttribute'.(þìöƒüÿÿÿÿ
+csquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(ÖÏýâ
+hsquid:CommentedOutCodeLineÛ"<This block of commented-out lines of code should be removed.(Òàªäþÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheckü"nRemove the declaration of thrown exception 'javax.persistence.NoResultException' which is a runtime exception.(ìÂƒÕøÿÿÿÿ
+Ÿ%squid:RedundantThrowsDeclarationCheck‰"nRemove the declaration of thrown exception 'javax.persistence.NoResultException' which is a runtime exception.(Ö¢¹=
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(‹Æü§øÿÿÿÿ
+esquid:S1192æ"HDefine a constant instead of duplicating this literal "REFRESH" 3 times.(·ì˜ìÿÿÿÿÿ
+bsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(Ã‡›˜
+hsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(…Ôì´ýÿÿÿÿ
+U
+squid:S106’"9Replace this use of System.out or System.err by a logger.(¦ÆÐÉüÿÿÿÿ
+P
+squid:S106ž"9Replace this use of System.out or System.err by a logger.(Š“€È
+hsquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(À‡éèýÿÿÿÿ
+hsquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(†Ðãÿùÿÿÿÿ
+_squid:S00112¸"FDefine and throw a dedicated exception instead of using a generic one.(¥âè¾
+dsquid:S00112–"FDefine and throw a dedicated exception instead of using a generic one.(ˆÓüÕÿÿÿÿÿ
+nsquid:S2159ÿ"VRemove this call to "equals"; comparisons between unrelated types always return false.(¿¤‚‘
+^squid:S00112g"FDefine and throw a dedicated exception instead of using a generic one.(‚æÚº
+csquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(×÷ô£
+hsquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(í¡Æúÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheckg"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‚æÚº
+dsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.( äÄýýÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheckl"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(øá„Çÿÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'javax.ejb.TransactionAttributeType'.(Î¢éýÿÿÿÿ
+gsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+csquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(—³àÈ
+csquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(ãöÔµ
+O
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(ö‡™K
+hsquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(‹ç¯íùÿÿÿÿ
+£%squid:RedundantThrowsDeclarationCheckÅ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(«Ò²Áýÿÿÿÿ
+csquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(µÀÏ¼
+csquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(¹Í
+_squid:S00112±"FDefine and throw a dedicated exception instead of using a generic one.(–ÙÝö
+gsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(ˆÑõÎùÿÿÿÿ
+£%squid:RedundantThrowsDeclarationCheck­"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(±®ØÒüÿÿÿÿ
+lsquid:S1192"ODefine a constant instead of duplicating this literal "SELECT c FROM " 3 times.(Ÿ²Á÷ùÿÿÿÿ
+hsquid:CommentedOutCodeLineð"<This block of commented-out lines of code should be removed.(•œóØøÿÿÿÿ
+}squid:S00116"eRename this field "ERROR_MSG_CANT_FIND_ENTITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎÀ©
+dsquid:S00112Å"FDefine and throw a dedicated exception instead of using a generic one.(«Ò²Áýÿÿÿÿ
+ysquid:S1488Á"\Immediately return this expression instead of assigning it to the temporary variable "list".(½„Øëúÿÿÿÿ
+bsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(ª‚Í8
+bsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ËßÉ
+bsquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(Ç•ð»
+csquid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(Ô­êØ
+csquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(¥Ø
+8squid:S1170"!Make this final field static too.(áÎÀ©
+hsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+csquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(Ã±˜¬
+_squid:S00112¢"FDefine and throw a dedicated exception instead of using a generic one.(§ÁÝš
+dsquid:S00112ò"FDefine and throw a dedicated exception instead of using a generic one.(’çæûÿÿÿÿ
+hsquid:CommentedOutCodeLineß"<This block of commented-out lines of code should be removed.(±È³éÿÿÿÿÿ
+squid:S1192æ"bDefine a constant instead of duplicating this literal "javax.persistence.cache.storeMode" 3 times.(·ì˜ìÿÿÿÿÿ
+hsquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(’•îæýÿÿÿÿ
+csquid:S00112l"FDefine and throw a dedicated exception instead of using a generic one.(øá„Çÿÿÿÿÿ
+dsquid:S00112­"FDefine and throw a dedicated exception instead of using a generic one.(±®ØÒüÿÿÿÿ
+dsquid:UselessImportCheck"@Remove this unused import 'javax.ejb.TransactionManagementType'.(óéŸû
+ysquid:S1488™"\Immediately return this expression instead of assigning it to the temporary variable "list".(½„Øëúÿÿÿÿ
+ysquid:S1488º"\Immediately return this expression instead of assigning it to the temporary variable "list".(½„Øëúÿÿÿÿ
