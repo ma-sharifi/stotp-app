@@ -46,7 +46,6 @@ public class ValidateSTOTPProcessor extends AbstractProcessor {
         boolean result = true;
         StopWatch stopWatch = new Log4JStopWatch();
         OTPKeyStoreCache otpKeyStoreCacheRead = (OTPKeyStoreCache) entry.getValue();
-        System.out.println("##otp: " + otp + " ,otpKeyStoreCacheRead.getLastOTP(): " + otpKeyStoreCacheRead.getLastOTP());
         if (result && checkLastOTP && otp.equals(otpKeyStoreCacheRead.getLastOTP())) {//if last
             result = false;
             LOGGER_NODE.error(String.format("%-12s"," ")+entry.getKey() + " -> Last OTP check : " + " , " + entry.getValue());
