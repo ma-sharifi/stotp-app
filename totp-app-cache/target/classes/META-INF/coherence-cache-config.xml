@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<cache-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="http://xmlns.oracle.com/coherence/coherence-cache-config"
+              xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-cache-config coherence-cache-config.xsd">
+    <caching-scheme-mapping>
+        <cache-mapping>
+            <cache-name>totp_key_cache</cache-name>
+            <scheme-name>totp_key_cache_scheme</scheme-name>
+        </cache-mapping>
+        <cache-mapping>
+            <cache-name>totp_uuid_cache</cache-name>
+            <scheme-name>totp_uuid_cache_scheme</scheme-name>
+        </cache-mapping>
+    </caching-scheme-mapping>
+
+    <caching-schemes>
+        <distributed-scheme>
+            <scheme-name>totp_key_cache_scheme</scheme-name>
+            <service-name>totp_key_cache_service</service-name>
+
+            <thread-count-max>30</thread-count-max>
+            <!--<request-timeout>60s</request-timeout>-->
+            <!--<local-storage>true</local-storage>-->
+            <!--<partition-count>200</partition-count> &lt;!&ndash; number of partitions (on all nodes) &ndash;&gt;-->
+            <!-- max size of cache (for all entries on all nodes, without backup) = partition-count * each-partition-max-size -->
+            <backup-count>0</backup-count>
+            <!--<task-timeout>5000</task-timeout>-->
+            <member-listener>
+                <class-name>ir.htsc.listeners.MemberEventListener</class-name>
+            </member-listener>
+            <backing-map-scheme>
+                <!--<partitioned>true</partitioned>-->
+                <read-write-backing-map-scheme>
+                    <internal-cache-scheme>
+                        <ramjournal-scheme/>
+                    </internal-cache-scheme>
+                </read-write-backing-map-scheme>
+            </backing-map-scheme>
+            <autostart>true</autostart>
+
+
+        </distributed-scheme>
+
+        <distributed-scheme>
+            <scheme-name>totp_uuid_cache_scheme</scheme-name>
+            <service-name>totp_uuid_cache_service</service-name>
+            <thread-count>20</thread-count>
+            <!--<partition-count>200</partition-count> &lt;!&ndash; number of partitions (on all nodes) &ndash;&gt;-->
+            <!-- max size of cache (for all entries on all nodes, without backup) = partition-count * each-partition-max-size -->
+            <backup-count>0</backup-count>
+            <task-timeout>5000</task-timeout>
+            <member-listener>
+                <class-name>ir.htsc.listeners.MemberEventListener</class-name>
+            </member-listener>
+            <backing-map-scheme>
+                <!--<partitioned>true</partitioned>-->
+                <read-write-backing-map-scheme>
+                    <internal-cache-scheme>
+                        <ramjournal-scheme/>
+                    </internal-cache-scheme>
+                </read-write-backing-map-scheme>
+            </backing-map-scheme>
+
+            <autostart>true</autostart>
+        </distributed-scheme>
+
+        <!--https://docs.oracle.com/cd/E14039_01/coh.320/coh32ug/local_scheme.htm-->
+        <local-scheme>
+            <scheme-name>LocalSizeLimited</scheme-name>
+            <eviction-policy>LRU</eviction-policy>
+        </local-scheme>
+    </caching-schemes>
+
+</cache-config>
+

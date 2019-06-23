@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+
+    <appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <param name="encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-25.25t] [%-25.25c{1}:%-4L] [%-25.25M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} %-5p  [%-32t] [%-20.20c{1}] [%-23.23M] -> %m%n"/>-->
+
+    <appender name="rootAppender" class="org.apache.log4j.RollingFileAppender">
+        <!--<param name="file" value="$SPC_LOG/spc.log"/>-->
+        <param name="file" value="d:/log/sotp/root/totp.log"/>
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/spc.log"/>-->
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <param name="encoding" value="UTF-8"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p] [%-25.25c{1}:%-4L] [%-25.25M] -> %m%n"/>
+            <!--<param name="ConversionPattern" value="%d{dd-MM-yyyy HH:mm:ss.SSS} [%-5p] [%-32t] [%-20.20c{1}] [%-23.23M] - %m%n"/>-->
+        </layout>
+    </appender>
+    <!--Added By MSH 950503 org.apache.log4j.ConsoleAppender   org.apache.log4j.RollingFileAppender-->
+    <appender name="stackTrace" class="org.apache.log4j.RollingFileAppender">
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/stackTrace.log"/>-->
+        <param name="file" value="d:/log/sotp/stackTrace/stackTrace.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-25.25M] -> %m%n"/>
+        </layout>
+    </appender>
+    <!--Added By MSH 950522 -->
+    <appender name="httpHeader" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/web/httpHeader.log"/>
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/web/httpHeader.log"/>-->
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-25.25M] -> %m%n"/>
+        </layout>
+    </appender>
+    <!--Added By MSH 950824 -->
+    <appender name="postedRequest" class="org.apache.log4j.RollingFileAppender">
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/activeCode/activationCode.log"/>-->
+        <param name="file" value="d:/log/sotp/posted/postedRequest.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-20.20t] [%-20c{1}:%-4L] [%-23.23M] -> %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-25.25M] -> %m%n"/>
+        </layout>
+    </appender>
+    <!--Added By MSH 950522 -->
+    <appender name="dbTiming" class="org.apache.log4j.RollingFileAppender">
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/timing/timing.log"/>-->
+        <param name="file" value="d:/log/sotp/timing/database/dbTiming.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+    <!--Added By MSH 950522 -->
+    <appender name="serviceTiming" class="org.apache.log4j.RollingFileAppender">
+        <!--<param name="file" value="/u01/Middleware/domains/spc/servers/APPLOG/SPC/timing/timing.log"/>-->
+        <param name="file" value="d:/log/sotp/timing/service/serviceTiming.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--Added By MSH 950914 -->
+    <appender name="hardware" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/hw/hardware.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>-->
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--Added By MSH 950914 -->
+    <appender name="health" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/health/health.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--Added By MSH 951022 -->
+    <appender name="transactions" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/transaction/transaction.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="critical" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/critical/critical.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+    <!--Added By MSH 951022 -->
+    <appender name="node" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cache/processor/node.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+    <appender name="cacheMapListener" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/cache/listener/mapListener.log"/>
+        <param name="MaxFileSize" value="20000KB"/>
+        <param name="MaxBackupIndex" value="20"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%-5p]  [%-70.70t] [%-25.25c{1}:%-4L] [%-23.23M] -> %m%n"/>
+        </layout>
+    </appender>
+
+
+    <!--<appender name="SYSLOG" class="org.apache.log4j.net.SyslogAppender">-->
+    <!--&lt;!&ndash;<errorHandler/>&ndash;&gt;-->
+    <!--<param name="Facility" value="LOCAL7"/>-->
+    <!--<param name="FacilityPrinting" value="false"/>-->
+    <!--<param name="Header" value="true"/>-->
+    <!--<param name="SyslogHost" value="10.0.97.22:514"/>-->
+    <!--&lt;!&ndash;<param name="SyslogHost" value="<host>.papertrailapp.com:514"/>&ndash;&gt;-->
+    <!--<param name="ConversionPattern" value="%p: %c{2} %x %m %n"/>-->
+    <!--</appender>-->
+
+    <!--<logger name="SYSLOG" additivity="false">-->
+    <!--<level value="info"/>-->
+    <!--<appender-ref ref="SYSLOG"/>-->
+    <!--</logger>-->
+
+
+    <appender name="timeFileAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="d:/log/sotp/statistics/statistics.log"/>
+        <param name="MaxFileSize" value="10000KB"/>
+        <param name="MaxBackupIndex" value="5"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+
+    <appender name="CoalescingStatistics" class="org.perf4j.log4j.AsyncCoalescingStatisticsAppender">
+        <param name="TimeSlice" value="60000"/>
+        <param name="QueueSize" value="200000"/>
+        <appender-ref ref="timeFileAppender"/>
+    </appender>
+
+    <logger name="org.perf4j.TimingLogger" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="CoalescingStatistics"/>
+    </logger>
+
+    <logger name="node" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="node"/>
+    </logger>
+
+    <logger name="cacheMapListener" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="cacheMapListener"/>
+    </logger>
+
+    <logger name="transactions" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="transactions"/>
+    </logger>
+
+    <logger name="critical" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="critical"/>
+    </logger>
+
+    <!--Added By MSH 950914 -->
+    <logger name="hardware" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="hardware"/>
+    </logger>
+
+    <!--Added By MSH 950503-->
+    <logger name="postedRequest" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="postedRequest"/>
+    </logger>
+    <!--Added By MSH 950503-->
+    <logger name="dbTiming" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="dbTiming"/>
+    </logger>
+
+    <!--Added By MSH 950503-->
+    <logger name="serviceTiming" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="serviceTiming"/>
+    </logger>
+
+    <!--Added By MSH 950520-->
+    <logger name="httpHeader" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="httpHeader"/>
+    </logger>
+
+    <!--Added By MSH 950520-->
+    <logger name="health" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="health"/>
+    </logger>
+
+    <!--Added By MSH 950520-->
+    <logger name="testLog" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="rootAppender"/>
+    </logger>
+
+
+    <!--Added By MSH 950503-->
+    <logger name="stackTrace" additivity="false">
+        <!--<level value="info"/>-->
+        <appender-ref ref="stackTrace"/>
+    </logger>
+
+    <root>
+        <level value="info"/>
+        <!--<appender-ref ref="ConsoleAppender"/>-->
+        <appender-ref ref="rootAppender"/>
+    </root>
+
+</log4j:configuration>

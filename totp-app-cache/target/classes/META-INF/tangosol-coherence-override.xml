@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<!--<coherence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config"-->
+<!--xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config coherence-operational-config.xsd"-->
+<!--xml-override="/tangosol-coherence-override.xml">-->
+
+<coherence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config http://xmlns.oracle.com/coherence/coherence-operational-config/1.2/coherence-operational-config.xsd"
+           xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config">
+    <cluster-config>
+        <member-identity>
+            <cluster-name>totp_key_cluster</cluster-name>
+            <!--<cluster-name>myCache-Cluster</cluster-name>-->
+            <!--<member-name system-property="coherence.member">C1</member-name>-->
+        </member-identity>
+
+        <!--<unicast-listener>-->
+            <!--<well-known-addresses>-->
+                <!--<address id="1">127.0.0.1</address>-->
+                <!--<address id="2">10.0.85.102</address>-->
+
+            <!--</well-known-addresses>-->
+        <!--</unicast-listener>-->
+
+        <multicast-listener>
+            <join-timeout-milliseconds>10000</join-timeout-milliseconds>
+        </multicast-listener>
+
+    </cluster-config>
+    <!--http://docs.oracle.com/cd/E18686_01/coh.37/e18677/appendix_operational.htm#COHDG419-->
+    <logging-config>
+        <destination>log4j</destination>
+        <severity-level>9</severity-level>
+        <!--<message-format>-->
+            <!--[{date}] &lt;{level}&gt; (thread={thread}) &ndash;&gt;{text}-->
+        <!--</message-format>-->
+        <!--<character-limit system-property="coherence.log.limit">12288-->
+        <!--</character-limit>-->
+    </logging-config>
+
+    <configurable-cache-factory-config>
+        <init-params>
+            <init-param>
+                <param-type>java.lang.String</param-type>
+                <param-value system-property="tangosol.coherence.cacheconfig">coherence-cache-config.xml</param-value>
+            </init-param>
+        </init-params>
+    </configurable-cache-factory-config>
+
+    <management-config>
+        <managed-nodes system-property="coherence.management">all</managed-nodes>
+        <reporter>
+            <configuration system-property="coherence.management.report.configuration">my-report-group-cache.xml</configuration>
+        </reporter>
+    </management-config>
+</coherence>
+
+        <!--<services>-->
+        <!--<service id="3" xml-override="/dist-service-config.xml">-->
+        <!--</service>-->
+        <!--</services>-->
+
+        <!--<services>-->
+        <!--<service id="30">-->
+        <!--<init-params>-->
+        <!--<init-param id="31">-->
+        <!--<param-name>local-storage</param-name>-->
+        <!--<param-value system-property="coherence.distributed.localstorage">false</param-value>-->
+        <!--</init-param>-->
+        <!--</init-params>-->
+        <!--</service>-->
+        <!--</services>-->

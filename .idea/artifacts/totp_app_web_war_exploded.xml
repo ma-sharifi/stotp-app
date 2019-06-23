@@ -16,6 +16,7 @@
           <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" />
           <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.9" />
+          <element id="library" level="project" name="Maven: com.oracle.coherence:coherence:12.2.1-1-0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

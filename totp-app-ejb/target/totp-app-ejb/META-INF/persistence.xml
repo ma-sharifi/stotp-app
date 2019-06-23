@@ -1,0 +1,17 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+    <persistence-unit name="PU_TOTP" transaction-type="JTA">
+        <jta-data-source>jdbc/totpDS</jta-data-source>
+        <!--<class>ir.bki.entities.spc.SmsOut</class>-->
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <!--<property name="eclipselink.logging.logger"-->
+                      <!--value="org.eclipse.persistence.logging.DefaultSessionLog"/>-->
+            <!--<property name="eclipselink.logging.level" value="FINE" />-->
+        </properties>
+    </persistence-unit>
+
+</persistence>
